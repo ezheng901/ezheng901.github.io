@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS messaround </title>
+</head>
+<body>
+    <h1>Let's learn javascript!</h1>
+    <h2>How do we do onclick events and elerts on an anchor</h2>
+    <a href="https://youtube.com" target="_blank" onclick="alert('warning! you are navigating away from my cool page')">A website to watch entertainment</a>
+
+    <hr>
+    <h2>How do we display entire texts?</h2>
+    <h2>What's my secret identity?</h2>
+    <p id="secret"></p>
+    <button onclick="document.getElementbyId('secret').innerHTML='Thiiiiiiqrqrqwrqwer'"> Reveal!</button>
+    <button>Hide!</button>
+    <button onclick="document.getElementbyId('secret').style.display='None'"> Hide!</button>
+
+    <hr> how do we change an image in jvs?</hr2> 
+    
+
+
+    <hr> 
+    <h2> How do we return user input with a function</h2>
+    <button onclick="askName()">What's your name?</button>
+    <p id="ask name"></p>
+
+    <script>
+        function askName(){
+            let nameParagraph = document.getElementById("ask-name")
+            let name = prompt("What's your name?");
+            //now let's decide what to do
+            if (name === "batman"){
+                nameParagraph.innerHTML = "welcome to the bat cave"
+            } else{
+                nameParagraph.innerHTML = "Hello" + name + "! nice to meet you."
+            }
+
+
+        }
+    </script>
+
+
+    
+
+
+
+
+    
+   
+    
+
+
+<h2 id="myH2">This is an example</h2>
+<p id="myP">This is an paragraph is going to become pink</p>
+<p id="myP2">This will turn blue</p>
+<div id="myDiv">This is something that will turn lightblue</div>
+<br>
+
+<button type="button" onclick="myFunction()">Set text color</button>
+
+<script>
+function myFunction() {
+  document.getElementById("myH2").style.color = "#ff0000";
+  document.getElementById("myP").style.color = "magenta";
+  document.getElementById("myP2").style.color = "blue";
+  document.getElementById("myDiv").style.color = "lightblue";
+}
+</script>
+
+
+<p id="demo">This is a paragraph.</p>
+
+<button type="button" onclick="myFunction()">Change the text do a different font</button>
+ 
+<script>
+function myFunction() {
+  document.getElementById("demo").style.fontFamily = "Impact,Charcoal,sans-serif";
+}
+</script>
+
+    
+    </body>
+    </html>
+    
