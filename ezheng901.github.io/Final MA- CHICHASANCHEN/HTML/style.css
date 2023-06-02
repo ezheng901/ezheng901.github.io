@@ -1,0 +1,64 @@
+@import url("https://use.typekit.net/eqh4jpg.css");
+body {
+    background-color: rgb(213,205,184);
+ 
+}
+.nav {
+    list-style-type: none;
+    background-color: rgb(179, 129, 96);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+  .navbar-item {
+    margin-right: 20px;
+  }
+
+
+  .navbar-item:last-child {
+    margin-right: 0;
+  }
+
+
+
+  .navbar-item a {
+    text-decoration: none;
+  }
+
+ul.nav li {
+    float: left;
+}
+ul.nav li a {
+    display: block;
+    padding: 30px 16px;
+    color: rgb(115,81,26);
+    text-decoration: none;
+    font-family: "antonia-variable", sans-serif;
+    font-size: x-large;
+    font-weight: 300;
+}
+ul.nav a:hover {
+    background-color:  rgba(3, 25, 29, 0);
+    color:  rgb(43, 34, 21);
+}
+.active {
+    background-color: rgb(179, 129, 96);
+}
+
+
+h1 {
+    color:  rgb(255, 255, 255);       
+    font-weight: 400;
+    font-style: normal;
+    font: size 400px;
+   
+}
+

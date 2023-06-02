@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>  
+    <title>Spaced Repitition</title>
+    <style>
+            .content{
+            display: grid;
+            grid-template-columns: 60% 40%;
+        }
+
+        .title{
+            
+            text-align: left;
+            padding-left: 20%;
+        }
+
+        .title h1 {
+            color: var(--primary);
+            font-size: 6rem;
+            margin: 0;
+            margin-bottom: 2rem;
+            
+        }
+
+        .title p {
+            color: var(--primary);
+            font-size: 1.3rem;
+        }
+
+        .title-img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .title-img img {
+            width: 80%;
+            border: 0.1rem solid var(--secondary);
+            border-radius: 10px;
+        }
+
+        .zen-cards {
+            grid-column: 1 / -1;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            margin: 0;
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .card{
+            font-size: 1rem;
+            margin: 0;
+            margin-left: 2rem;
+            margin-right: 2rem;
+            border-radius: 10px;
+            background-color: var(--bckgrnd);
+            box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+            color: var(--text);
+            border: 0.1px solid var(--text);
+            height: 100%;
+            padding: 0.5rem;
+            max-width: 25%;
+
+        }
+
+        .card h2 {
+            color: var(--primary);
+            margin: 0;
+        }
+
+        .card iframe{
+            border: 2px solid var(--secondary);
+            display: block;
+            max-width: 100%;
+            border-radius: 10px;
+            margin: auto;
+        } 
+
+         
+
+     
+        
+
+    </style>
+</head>
+<body>
+    <div id="top"></div>
+    <div id="trailer"></div>    
+    <div class="nav">
+      
+        <div class="center">
+            <ul class="nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="faqs.html">FAQ's</a></li>
+                       
+            </ul>
+        </div>
+       
+    </div>
+
+    <div class="content">
+        <div class="title">
+                 <h1>Chi Cha San Chen: Luxury Tea</h1>
+                <p> Chi Cha San Chen is a Taiwan-founded tea company. Starting in 1998, we were especially known for our fresh ingrediants and warm atmosphere. However, the most notable difference between us and other tea shops is that we freshly brew our tea every for every single portion, and the quality of the tea is unlike any other. Tight regulations and restrictions insure the utmost quality coming from our ingredients.</p>
+              
+        </div>
+        <div class="title-img">
+            <img src="images/chinese-logo.png">
+        </div>
+
+
+            <div class="card">
+            <h2>Quality</h2>
+            <p>We pride ourselves in the quality of every cup of tea we put out. Heavy restrictions and regulations ensure that each beverage is the exact same from the first to the second, third, fourth, or nth time you come! However, nothing comes close to the importance of our tea leaves, where they are grown all over Taiwan!</p>
+            <img src="images/tea-patty.webp" alt="Description of the image" style="width: 300px; height: auto;">
+        </div>
+
+
+
+    </div>
+    
+    
+</body>
+</html>
